@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Basic Setup */
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-size: 60px;
+  color: #575757;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #707070;
+  margin-bottom: 30px;
+}
+h3 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+h4 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+h5 {
+  font-size: 30px;
+  color: #5b5b5b;
+  margin-bottom: 20px;
+}
+p {
+  font-size: 20px;
+  font-weight: 400;
+}
+.light-orange {
+  color: #fba24f;
+}
+.dark-orange {
+  color: #fe4c2f;
+}
+section {
+  margin-bottom: 100px;
+}
+/*============ Hero Section start ==============*/
+.hero-section {
+  display: flex;
+  justify-content: flex-start;
+}
+.half-width {
+  width: 50%;
+}
+.hero-section > .half-width > img {
+  width: 70%;
+}
+.text-div {
+  padding-left: 60px;
+  padding-top: 120px;
+}
+a {
+  text-decoration: none;
+}
+.btn {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#fba24f),
+    to(#ff1e1e)
+  );
+  background: -o-linear-gradient(left, #fba24f, #ff1e1e);
+  background: linear-gradient(to right, #fba24f, #ff1e1e);
+  font-weight: 500;
+  color: #ffffff;
+  padding: 12px 30px;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 30px;
+  -webkit-box-shadow: 0px 2px 30px rgba(252, 143, 73, 0.5);
+  box-shadow: 0px 2px 30px rgba(252, 143, 73, 0.5);
+}
+.hero-section .half-width p {
+  margin-bottom: 40px;
+  line-height: 30px;
+}
+/*============== Hero Section End ================*/
+
+/*============ About Me Section Start ==============*/
+.about-me-section {
+  background-image: url("../img/shapes/7.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  width: 100vw;
+}
+.about-me-section > .half-width > img {
+  width: 50%;
+  margin-left: 150px;
+  margin-top: 50px;
+}
+.about-me-section > .text-area {
+  margin-top: 200px;
+  align-items: center;
+}
+.about-me-section .text-area p {
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+.recipies {
+  text-align: center;
+  margin-bottom: 150px;
+}
+.recipies > p {
+  line-height: 28px;
+}
+/*============ About Me Section End ==============*/
+
+/*============ Recipies Section Start ============*/
+.col-33 {
+  width: 33.33%;
+}
+.recipies-section {
+  display: flex;
+  justify-content: space-around;
+}
+.recipies-section > .col-33 > img {
+  width: 100%;
+}
+.col-33 > p {
+  max-width: 330px;
+  line-height: 30px;
+}
+.box {
+  width: 350px;
+  height: 480px;
+  padding: 20px;
+  box-shadow: 2px 5px 30px rgb(214, 211, 211);
+  border-radius: 20px;
+}
+/*============ Recipies Section End ============*/
+
+/*============ follow Section Start ============*/
+.col.follow {
+  max-width: 350px;
+  width: 33.33%;
+}
+.follow-section {
+  max-width: 1240px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 2px 5px 20px rgb(214, 211, 211);
+  margin-bottom: 100px;
+  margin-top: 180px;
+  padding: 50px;
+  border-radius: 20px;
+}
+
+/*============ follow Section End ============*/
+
+/*============ Footer Section start ============*/
+footer {
+  background-color: #000;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px;
+}
+.footer-text > p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
+/*============ Footer Section End ============*/
